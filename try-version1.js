@@ -1,0 +1,42 @@
+<!-- Google Fonts: Montserrat -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap" rel="stylesheet">
+
+<!-- Widget Configuration -->
+<script>
+  window.ChatWidgetConfig = {
+    webhook: {
+      url: 'https://circlelogic.app.n8n.cloud/webhook/f55bfc2b-7fa6-4759-b4cd-7191cd689b7c/chat',    // <-- Your webhook URL here
+      route: 'general'
+    },
+    branding: {
+      logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBVZ70UjLOJzXDzU6YrpBekSfMZsYpp8z-Ag&s',
+      name: 'Ties N Cuffs',
+      welcomeText: 'Get instant answers to your questions!',
+      responseTimeText: 'Click the button to start chatting'
+    },
+    style: {
+      primaryColor: '#41b6fa',
+      secondaryColor: '#2093d1',
+      position: 'right',
+      backgroundColor: '#ffffff',
+      fontColor: '#222b39',
+      borderRadius: '22px',
+      buttonFontColor: '#ffffff',
+      inputBackgroundColor: '#f9f9fb',
+      inputBorderColor: '#e2e8f0',
+      // Custom font (Montserrat) for all widget text
+      fontFamily: "'Montserrat', 'Segoe UI', Arial, sans-serif",
+      // Font sizes and weights for specific sections
+      titleFontSize: '16px',
+      titleFontWeight: '700',
+      mainFontSize: '22px',
+      mainFontWeight: '800',
+      buttonFontSize: '16px',
+      buttonFontWeight: '700',
+      bodyFontSize: '14px',
+      bodyFontWeight: '400'
+    }
+  };
+</script>
+<script src="https://cdn.jsdelivr.net/gh/quimpositor/n8n-chatbot-template@main/chat-widget.js"></script>
+<!-- Widget Script -->
